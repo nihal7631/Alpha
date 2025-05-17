@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Tutor | Alpha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-in-out; }
+    .fade-in.show { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-fixed bg-cover bg-center" style="background-image: url('your-background.jpg');">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-md flex justify-between items-center px-6 py-3">
+    <div class="flex items-center space-x-3">
+      <img src="logoo.jpg" alt="Logo" class="w-12 h-12 rounded-full border border-gray-300"/>
+      <span class="text-xl md:text-2xl font-bold text-sky-600 tracking-wide">Home Tutor</span>
+    </div>
+    <nav class="flex items-center space-x-4 text-base md:text-lg">
+      <a href="#about" class="text-sky-700 hover:text-yellow-600 transition">About</a>
+      <a href="#services" class="text-sky-700 hover:text-yellow-600 transition">Services</a>
+      <a href="#contact" class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-700 transition shadow-md">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-24 pb-16 px-6 text-white">
+    <div class="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-md p-10 rounded-xl shadow-lg fade-in">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-yellow-600 mb-4 animate-bounce">We Provide Home Tuition</h1>
+      <p class="text-xl md:text-2xl font-semibold text-gray-800">Nursery to 10th (CBSE & NCERT)</p>
+      <p class="text-red-600 font-medium mt-2"># Special Subject Classes Available</p>
+      <p class="text-gray-700 mt-4">📍 Koderma, Telaiya, Domchanch</p>
+      <a href="#contact" class="mt-6 inline-block bg-sky-600 text-white px-6 py-3 rounded-full hover:bg-sky-700 transition shadow-md">
+        Contact Us Now
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-white fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-sky-700 mb-6">Why Choose Us?</h2>
+      <p class="text-gray-700 mb-8 text-lg">Graduate & B.Ed teachers providing personalized 1-on-1 learning.</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white border rounded-xl p-6 shadow-lg hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-yellow-600">Qualified Tutors</h3>
+          <p class="text-gray-600 mt-2">Certified educators with real teaching experience.</p>
+        </div>
+        <div class="bg-white border rounded-xl p-6 shadow-lg hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-yellow-600">Customized Learning</h3>
+          <p class="text-gray-600 mt-2">Flexible, focused, and based on your child’s needs.</p>
+        </div>
+        <div class="bg-white border rounded-xl p-6 shadow-lg hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-yellow-600">Flexible Timings</h3>
+          <p class="text-gray-600 mt-2">Morning, afternoon or evening — we adapt to you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6 bg-gradient-to-br from-sky-100 to-yellow-100 fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-sky-700 mb-10">Subjects We Cover</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-sky-700 text-lg font-semibold">
+        <div class="hover:text-yellow-600 transition">📘 Hindi</div>
+        <div class="hover:text-yellow-600 transition">📗 English</div>
+        <div class="hover:text-yellow-600 transition">📐 Maths</div>
+        <div class="hover:text-yellow-600 transition">🔬 Science</div>
+        <div class="hover:text-yellow-600 transition">🌍 S.St</div>
+        <div class="hover:text-yellow-600 transition">💻 Computer</div>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-white fade-in">
+  <div class="w-full text-center bg-white/90 backdrop-blur-md p-10 rounded-xl shadow-2xl">
+    <h2 class="text-3xl font-bold text-sky-700 mb-4">Contact Us</h2>
+    <p class="text-gray-700 mb-6 text-lg">Get in touch with us via WhatsApp or Call directly.</p>
+    <div class="flex flex-col md:flex-row flex-wrap justify-center items-center gap-6 mx-auto max-w-6xl">
+      <a href="https://wa.me/917050140569" target="_blank" class="bg-sky-500 text-white px-6 py-3 rounded-full hover:bg-sky-600 transition transform hover:scale-105 shadow-lg">
+        📱 WhatsApp: 7050140569
+      </a>
+      <a href="https://wa.me/6203113426" target="_blank" class="bg-sky-500 text-white px-6 py-3 rounded-full hover:bg-sky-600 transition transform hover:scale-105 shadow-lg">
+        📱 WhatsApp: 6203113426
+      </a>
+      <a href="tel:7050140569" class="bg-sky-500 text-white px-6 py-3 rounded-full hover:bg-sky-600 transition transform hover:scale-105 shadow-lg">
+        📞 Call: 7050140569
+      </a>
+      <a href="tel:6203113426" class="bg-sky-500 text-white px-6 py-3 rounded-full hover:bg-sky-600 transition transform hover:scale-105 shadow-lg">
+        📞 Call: 6203113426
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-sky-700 text-white py-6 text-center">
+    <p>&copy; 2025 Home Tutor.</p>
+  </footer>
+
+  <!-- Animation JS -->
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.2 });
+    faders.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
